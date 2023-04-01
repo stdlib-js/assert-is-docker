@@ -38,7 +38,8 @@
   "dependencies": {
     "@stdlib/assert-contains": "^0.0.7",
     "@stdlib/fs-exists": "^0.0.8",
-    "@stdlib/fs-read-file": "^0.0.8"
+    "@stdlib/fs-read-file": "^0.0.8",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/utils-constant-function": "^0.0.8",
