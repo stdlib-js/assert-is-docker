@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IS_DOCKER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-docker@esm/index.mjs';
+import IS_DOCKER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-docker@v0.2.2-esm/index.mjs';
 ```
 
 #### IS_DOCKER
@@ -70,7 +70,7 @@ var bool = IS_DOCKER;
 <body>
 <script type="module">
 
-import IS_DOCKER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-docker@esm/index.mjs';
+import IS_DOCKER from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-docker@v0.2.2-esm/index.mjs';
 
 console.log( IS_DOCKER );
 // => <boolean>
