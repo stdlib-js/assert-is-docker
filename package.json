@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-docker",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Check if the process is running in a Docker container.",
   "license": "Apache-2.0",
   "author": {
@@ -36,13 +36,13 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-contains": "^0.2.1",
-    "@stdlib/assert-is-error": "^0.2.1",
-    "@stdlib/fs-exists": "^0.2.1",
-    "@stdlib/fs-read-file": "^0.2.1"
+    "@stdlib/assert-contains": "^0.2.2",
+    "@stdlib/assert-is-error": "^0.2.2",
+    "@stdlib/fs-exists": "^0.2.2",
+    "@stdlib/fs-read-file": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/utils-constant-function": "^0.2.1",
+    "@stdlib/utils-constant-function": "^0.2.2",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
