@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-docker",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Check if the process is running in a Docker container.",
   "license": "Apache-2.0",
   "author": {
@@ -37,9 +37,9 @@
   },
   "dependencies": {
     "@stdlib/assert-contains": "^0.3.0",
-    "@stdlib/assert-is-error": "^0.2.2",
-    "@stdlib/fs-exists": "^0.2.2",
-    "@stdlib/fs-read-file": "^0.2.2"
+    "@stdlib/assert-is-error": "^0.2.3",
+    "@stdlib/fs-exists": "^0.2.3",
+    "@stdlib/fs-read-file": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/utils-constant-function": "^0.2.3",
