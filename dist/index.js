@@ -1,5 +1,5 @@
-"use strict";var t=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var s=t(function(d,i){
-var u=require('@stdlib/fs-read-file/dist').sync,n=require('@stdlib/assert-contains/dist'),o=require('@stdlib/assert-is-error/dist'),a=require('@stdlib/fs-exists/dist').sync,c={encoding:"utf8"};function v(){var r;return a("/.dockerenv")?!0:(r=u("/proc/self/cgroup",c),o(r)?!1:n(r,"docker"))}i.exports=v
-});var f=s(),l=f();module.exports=l;
+"use strict";var u=function(r,e){return function(){try{return e||r((e={exports:{}}).exports,e),e.exports}catch(t){throw (e=0, t)}};};var s=u(function(p,i){
+var n=require('@stdlib/fs-read-file/dist').sync,o=require('@stdlib/assert-contains/dist'),a=require('@stdlib/assert-is-error/dist'),c=require('@stdlib/fs-exists/dist').sync,v={encoding:"utf8"};function f(){var r;return c("/.dockerenv")?!0:(r=n("/proc/self/cgroup",v),a(r)?!1:o(r,"docker"))}i.exports=f
+});var l=s(),q=l();module.exports=q;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
